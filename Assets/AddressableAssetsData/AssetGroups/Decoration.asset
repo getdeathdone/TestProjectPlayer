@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Decoration
+  m_EditorClassIdentifier: 
+  m_GroupName: Decoration
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 22b31ae2f6b1d3b4689e7fe0947d0d90
+  m_SerializeEntries:
+  - m_GUID: 0e62776f42388dd459d23bde7b959b53
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/ore03_4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 175f8ba6c99431d48bdc5a6d26b085c4
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/plant03_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38d1469b0e263c145a0522be1eb1df53
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/plant03_3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e4b1bb47840db949a59f7a679fc7186
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/plant01_3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41d89072a9c304243bec60c3cc8f923b
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/plant02_4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fd015c9e2e02a84b923809746ab26d0
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/plant01_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52b40608b27329347aefcac520b9ff3d
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/ore03_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53b7550df501e65448e72aad3ad1e912
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/ore03_3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 584d51a55d9137e4c96c8880cfa78838
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/plant01_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68bd31820675c78448424ae7766caa73
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/plant03_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a58027346351e8468241892dd1c8207
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/plant03_4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ef7154fc21a78840aac0a2b59f44ab9
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/plant02_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7f1ec8639e3fc24bb920b8b6579945a
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/plant02_3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbdee239ef414fc4086a35382542656e
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/plant02_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d95df92fc8b395b498cd5563bc7591ff
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/ore03_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f15c2ddf0da894847a334b840bbda8cb
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/plant01_4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Decoration
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a30ce783a46267945a9891be0b5cc4c2, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f14db07e6f3e3f443972e484dfb3e041, type: 2}
+    - {fileID: 11400000, guid: 7c8c3dd6f7282fb459e5f09a70192554, type: 2}

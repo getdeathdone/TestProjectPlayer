@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Enemies
+  m_EditorClassIdentifier: 
+  m_GroupName: Enemies
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4509d0326c4af8b4e9432ea67c8470e4
+  m_SerializeEntries:
+  - m_GUID: 002ea940502c91249ba8ac2bbf0f9392
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/astronaut_graysuit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Enemies
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 909daa9c1375de942b01b1ab033916ae
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/astronaut_blacksuit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Enemies
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9725fcf6e7aab0e4e8fd1bb373ffa6f1
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/astronaut_bluesuit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Enemies
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b87bcbeaeb8403d4bb0bd3a99fd1f68f
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/astronaut_orangesuit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Enemies
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb162de0d384a4a4ea87c9a290f2209b
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/astronaut.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Enemies
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe9b7ae8bc117704392cdf0f2ba99477
+    m_Address: Assets/ThirdParty/Floreswa/Prefabs/astronaut_redsuit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Enemies
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a30ce783a46267945a9891be0b5cc4c2, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 364bdf347bd32b0419e6c42d2e2c3664, type: 2}
+    - {fileID: 11400000, guid: 119d336762be6934e9a3d5bfcec1b2a3, type: 2}
