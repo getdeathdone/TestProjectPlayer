@@ -33,6 +33,7 @@ namespace Prototype.Camera
         private float _yawVelocity;
         private Vector3 _positionVelocity;
         private bool _isAiming;
+        private bool _isMouseInputEnabled;
 
         [Inject]
         public void Construct(PlayerService playerService, IInputService inputService)
@@ -58,20 +59,23 @@ namespace Prototype.Camera
                 return;
             }
 
-            _isAiming = UnityEngine.Input.GetMouseButton(GameplayConfig.Camera.AimMouseButton) || (_inputService != null && _inputService.AimPressed);
+            _isMouseInputEnabled = !Application.isMobilePlatform;
+            var mouseAimPressed = _isMouseInputEnabled && UnityEngine.Input.GetMouseButton(GameplayConfig.Camera.AimMouseButton);
+            _isAiming = mouseAimPressed || (_inputService != null && _inputService.AimPressed);
             var lookInput = _inputService != null ? _inputService.Look : Vector2.zero;
             var hasLookInput = lookInput.sqrMagnitude > GameplayConfig.Camera.LookInputSqrThreshold;
             var canRotate = !requireRightMouse || _isAiming || hasLookInput;
             if (canRotate)
             {
-                var mouseX = UnityEngine.Input.GetAxis("Mouse X");
+                var mouseX = _isMouseInputEnabled ? UnityEngine.Input.GetAxis("Mouse X") : 0f;
                 var lookYaw = lookInput.x * joystickYawSpeed * Time.deltaTime;
                 if (_isAiming || hasLookInput)
                 {
                     target.Rotate(Vector3.up, (mouseX * rotationSpeed * Time.deltaTime) + lookYaw, Space.World);
                 }
 
-                _pitch -= UnityEngine.Input.GetAxis("Mouse Y") * rotationSpeed * Time.deltaTime;
+                var mouseY = _isMouseInputEnabled ? UnityEngine.Input.GetAxis("Mouse Y") : 0f;
+                _pitch -= mouseY * rotationSpeed * Time.deltaTime;
                 _pitch -= lookInput.y * joystickPitchSpeed * Time.deltaTime;
                 _pitch = Mathf.Clamp(_pitch, pitchMin, pitchMax);
             }

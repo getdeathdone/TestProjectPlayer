@@ -181,14 +181,19 @@ namespace Prototype.Weapons
 
         private bool IsAiming()
         {
-            return UnityEngine.Input.GetMouseButton(GameplayConfig.Camera.AimMouseButton) ||
+            return (IsMouseInputEnabled() && UnityEngine.Input.GetMouseButton(GameplayConfig.Camera.AimMouseButton)) ||
                    (_inputService != null && _inputService.AimPressed);
         }
 
         private bool IsFiringPressed()
         {
-            return UnityEngine.Input.GetMouseButton(GameplayConfig.Camera.FireMouseButton) ||
+            return (IsMouseInputEnabled() && UnityEngine.Input.GetMouseButton(GameplayConfig.Camera.FireMouseButton)) ||
                    (_inputService != null && _inputService.FirePressed);
+        }
+
+        private static bool IsMouseInputEnabled()
+        {
+            return !Application.isMobilePlatform;
         }
 
         private void EmitState()

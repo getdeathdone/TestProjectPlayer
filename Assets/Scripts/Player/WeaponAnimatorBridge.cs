@@ -75,7 +75,8 @@ namespace Prototype.Player
             {
                 _isMoving = speed >= moveEnterSpeed;
             }
-            _isAiming = UnityEngine.Input.GetMouseButton(GameplayConfig.Camera.AimMouseButton) || (_inputService != null && _inputService.AimPressed);
+            var mouseAimPressed = !Application.isMobilePlatform && UnityEngine.Input.GetMouseButton(GameplayConfig.Camera.AimMouseButton);
+            _isAiming = mouseAimPressed || (_inputService != null && _inputService.AimPressed);
 
             if (Time.time < _lockedUntil)
             {
